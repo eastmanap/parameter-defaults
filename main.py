@@ -1,17 +1,17 @@
 # Apollos Eastman
-# Nov 18, 2024
+# Nov 18 2024
 # Default Values for Parameters Practice
 
 # 8-3 (T-Shirt)
 def make_shirt(size, text):
-    print(f'\nYour shirt is size {size.lower()} and says {text}.')
+    print(f'\nYour shirt is size {size.lower()} and says "{text}".')
 
 make_shirt('Medium', 'There\'s no place like home!')
 make_shirt(size = 'Medium', text = 'There\'s no place like home!')
 
 # 8-4 (Large Shirts)
-def large_shirt(text = 'I love python', size = 'large'):
-    print(f'\nYour shirt is size {size.lower()} and says {text}.')
+def large_shirt(text = 'I love python!', size = 'large'):
+    print(f'\nYour shirt is size {size.lower()} and says "{text}".')
     
 large_shirt()
 large_shirt(size = 'Medium')
