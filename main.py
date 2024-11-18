@@ -10,7 +10,7 @@ make_shirt('Medium', 'There\'s no place like home!')
 make_shirt(size = 'Medium', text = 'There\'s no place like home!')
 
 # 8-4 (Large Shirts)
-def large_shirt(text = 'I love python!', size = 'large'):
+def large_shirt(text = 'I love python', size = 'large'):
     print(f'\nYour shirt is size {size.lower()} and says {text}.')
     
 large_shirt()
